@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylesheet.css">
+            <title> POOKIE.org </title>
+    </head>
+    <body>
+        <h1 class="topTitle">
+            <img src="orangtang0.png" width="50px"> POOKIE Foundation <img src="orangtang0.png" width="50px">
+        </h1>
+        <header class="underTitle">
+           <i><b> Protection Of Orangutans Killed In the East </i></b>
+         </header>
+         <p></p>
+        <table class="table1">
+            <tr>
+                <th class="WWD">
+                 <a href="#top"> Our Cause - What We Do </a>
+                </th>
+                <td class="WWA"> <a href="whoWeAre.html"> Who We Are - Meet Our Staff </a> </td>
+                <td class="GI"> <a href="getInvolved.html"> Get Involved - How To Help </a></td>
+                <td class="NL"> <a href="newsletter.html"> Newsletter - Most Recent Events </a> </td>
+                <!--everything below this until the next note is for the dropdown login menu only-->
+                <td class="tableLogin">
+                    <div class="dropdownLogin">
+                        <button class="loginButton"><u>Login</u></button>
+                        <div class="dropdownContent">
+                            <label for="Email Address">Email Address</label>
+                        <input type="text" id="Email Address" name="Email Address" placeholder="john.doe@gmail.com">
+                        <label for="Password">Password</label>
+                        <input type="password" id="Password" name="Password" placeholder="*******">
+                            <button onclick="failedLogin()">Submit</button>
+                                <p id="failedDisplay"></p>
+                            <script>
+                                function failedLogin() {
+                                    document.getElementById("failedDisplay").innerHTML = "Unfortunately, our servers are down at the moment. Please try again later!";
+                    
+                                }
+                            </script>
+                        </div>
+                      </div>
+                </td>
+                <!--end of dropdown login menu-->
+            </tr>
+        </table>
+        <table class="table2">
+            <td>
+            <img class="firstMonke" src="orangtan1.jpg">
+            </td>
+            <td class="par1">
+            The specificity algorithm is basically a three-column value of three categories or weights - 
+            ID, CLASS, and TYPE - corresponding to the three types of selectors. The value represents 
+            the count of selector components in each weight category and is written as ID - CLASS - TYPE. 
+            The three columns are created by counting the number of selector components for each selector 
+            weight category in the selectors that match the element.
+            </td>
+        </table>
+        <table class="table3">
+            <td class="par2">
+            The specificity algorithm is basically a three-column value of three categories or weights - 
+            ID, CLASS, and TYPE - corresponding to the three types of selectors. The value represents 
+            the count of selector components in each weight category and is written as ID - CLASS - TYPE. 
+            The three columns are created by counting the number of selector components for each selector 
+            weight category in the selectors that match the element.
+            </td>
+            <td>
+            <img class="secondMonke" src="orangtan2.jpg">
+            </td>
+        </table>
+        <table class="table4">
+            <td>
+                <img class="thirdMonke" src="orangtan3.jpeg">
+            </td>
+            <td class="par3">
+            The specificity algorithm is basically a three-column value of three categories or weights - 
+            ID, CLASS, and TYPE - corresponding to the three types of selectors. The value represents 
+            the count of selector components in each weight category and is written as ID - CLASS - TYPE. 
+            The three columns are created by counting the number of selector components for each selector 
+            weight category in the selectors that match the element. 
+            </td>
+        </table>
+        <footer class="footer">
+            <br>
+           <i> © Orangutans. All image rights belong to the orangutans themselves. Reusing the images for commercial
+            purposes is grounds for legal action, and the orangutans are very good lawyers. </i>
+            <br>
+            ‏
+        </footer>
+    </body>
+</html>
